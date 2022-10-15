@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Tabela-Periódica</title>
+</head>
+<body>
+    <form id="box" method="post" action="php/validarElemento.php" >
+        <div class="titulo">
+            <h1>Tabela Periódica dos Elementos Químicos</h1>
+        </div>
+
+        <!--Linha 1-->
+        <div id="corpo1">
+            <div class="linhas">
+                <a href="PHP/"></a>
+                <button class="nao-metal" name="botao" value="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>1,008</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino" name="botao" value="3">
+                    <section class="elemento">
+                        <span>3</span>
+                        <h2>Li</h2>
+                        <p>Lítio</p>
+                        <p>6,94</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino" name="botao" value="11">
+                    <section class="elemento">
+                        <span>11</span>
+                        <h2>So</h2>
+                        <p>Sódio</p>
+                        <p>22,990</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino" name="19">
+                    <section class="elemento">
+                        <span>19</span>
+                        <h2>K</h2>
+                        <p>Potássio</p>
+                        <p>39,098</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino" name="37">
+                    <section class="elemento">
+                        <span>37</span>
+                        <h2>Rb</h2>
+                        <p>Rúbio</p>
+                        <p>85,468</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino" name="55">
+                    <section class="elemento">
+                        <span>55</span>
+                        <h2>Cs</h2>
+                        <p>Césio</p>
+                        <p>132,91</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino" name="87">
+                    <section class="elemento">
+                        <span>87</span>
+                        <h2>Fr</h2>
+                        <p>Frâncio</p>
+                        <p>223</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 2-->
+            <div class="linhas">
+                <button class="metal-alcalino-terroso" name="4">
+                    <section class="elemento">
+                        <span>4</span>
+                        <h2>Be</h2>
+                        <p>Berílio</p>
+                        <p>9,0122</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino-terroso" name="12">
+                    <section class="elemento">
+                        <span>12</span>
+                        <h2>Mg</h2>
+                        <p>Magnesio</p>
+                        <p>24,305</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino-terroso" name="20">
+                    <section class="elemento">
+                        <span>20</span>
+                        <h2>Ca</h2>
+                        <p>Cálcio</p>
+                        <p>40,078</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino-terroso" name="38">
+                    <section class="elemento">
+                        <span>38</span>
+                        <h2>Sr</h2>
+                        <p>Estrôncio</p>
+                        <p>87,62</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino-terroso" name="56">
+                    <section class="elemento">
+                        <span>56</span>
+                        <h2>Ba</h2>
+                        <p>Bário</p>
+                        <p>137,33</p>
+                    </section>
+                </button>
+                <button class="metal-alcalino-terroso" name="88">
+                    <section class="elemento">
+                        <span>88</span>
+                        <h2>Ra</h2>
+                        <p>Rádio</p>
+                        <p>226</p>
+                    </section>
+                </button>
+            </div>
+            <!--Linha 3-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+            <!--Linha 4-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+            <!--Linha 5-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+            <!--Linha 6-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+            <!--Linha 7-->
+            <div class="linhas">
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="5">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 8-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+            <!--Linha 9-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 10-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 11-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 12-->
+            <div class="linhas">
+                <button class="metal-transicao" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="metal-transicao" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 13-->
+            <div class="linhas">
+                <button class="semimetal" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="5">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 14-->
+            <div class="linhas">
+                <button class="nao-metal" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="semimetal" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="semimetal" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="5">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 15-->
+            <div class="linhas">
+                <button class="nao-metal" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="nao-metal" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="semimetal" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="semimetal" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="5">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 16-->
+            <div class="linhas">
+                <button class="nao-metal" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="nao-metal" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="nao-metal" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="semimetal" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="semimetal" name="5">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="outros-metais" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 17-->
+            <div class="linhas">
+                <button class="halogenio" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="halogenio" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="halogenio" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="halogenio" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="halogenio" name="5">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="halogenio" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+
+            <!--Linha 18-->
+            <div class="linhas">
+                <button class="gas-nobre" name="1">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="gas-nobre" name="2">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="gas-nobre" name="3">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="gas-nobre" name="4">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="gas-nobre" name="5">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="gas-nobre" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+                <button class="gas-nobre" name="6">
+                    <section class="elemento">
+                        <span>1</span>
+                        <h2>H</h2>
+                        <p>Hidrogênio</p>
+                        <p>massa</p>
+                    </section>
+                </button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
